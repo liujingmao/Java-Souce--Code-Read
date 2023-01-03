@@ -1,7 +1,7 @@
 package com.cmb.lambda;
 
 /**
- *
+ * 经典使用，匿名内部类的使用，初次使用lambda表达式
  */
 
 public class LambdaTest {
