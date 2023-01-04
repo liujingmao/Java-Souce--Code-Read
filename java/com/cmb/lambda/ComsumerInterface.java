@@ -4,6 +4,7 @@ import java.util.function.Consumer;
 
 /**
  *  1. Comsumer 接口类型的使用
+ *  使用场景
  */
 
 public class ComsumerInterface {

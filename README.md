@@ -6,5 +6,5 @@ Select Some Java Source Code to Read and Make Some Notes
 #### lambda表达式实现函数式接口
 #### 学会配合stream的使用
 
-#### 四大
+#### 四大重要函数式的用法
 #### 消费型接口
