@@ -31,10 +31,5 @@ public class StreamTest {
             return lint;
         }).filter(lint->lint==4).findFirst().ifPresent(System.out::println);
 
-
-
-
-
-
     }
 }
