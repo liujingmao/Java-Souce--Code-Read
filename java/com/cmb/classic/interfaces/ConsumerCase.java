@@ -57,6 +57,16 @@ public class ConsumerCase {
         c1.accept("test_method_reference");
     }
 
+    public void getsubString(){
+        Consumer<String> str=(s)-> System.out.println(s.substring(2,5));
+        str.accept("0123456");
+    }
+
+    public void convertToUpperStr(){
+        Consumer<String> stringConsumer =(s)-> System.out.println(s.toUpperCase());
+        stringConsumer.accept("acb");
+    }
+
     public void testF(){
         Comparator<Integer> comp = (n, m)->Integer.compare(n,m);
         int cop = comp.compare(3,4);
@@ -96,7 +106,9 @@ public class ConsumerCase {
 
        // consumerCase.testF();
 
-        consumerCase.testH();
+       // consumerCase.testH();
+       // consumerCase.getsubString();
+        consumerCase.convertToUpperStr();
 
 
 
