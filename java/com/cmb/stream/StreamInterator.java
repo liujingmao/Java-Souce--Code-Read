@@ -25,12 +25,12 @@ public class StreamInterator {
        Instant e = Instant.now();
         System.out.println("Outside Time(ms):"+Duration.between(b,e).toMillis());
 
-       /* b = Instant.now();
+       b = Instant.now();
         l.stream().forEach(x-> System.out.println(""));
 
          e = Instant.now();
         System.out.println("Inner Time(ms):"+Duration.between(b,e).toMillis());
-*/
+
 
     }
 
