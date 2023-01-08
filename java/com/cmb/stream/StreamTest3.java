@@ -34,8 +34,6 @@ public class StreamTest3 {
     }
 
 
-
-
     public static void main(String[] args) {
 
         // Method 1
